@@ -75,7 +75,7 @@
     font-family: Rubik-Medium;
     border-radius: 4px;
     width: 113px;
-    max-height: 38px;
+    height: 38px;
 }
 
 .header__auth-btn:hover {
@@ -242,6 +242,7 @@
 .footer__logo {
     /* display: flex; */
     margin-right: 39.98px;
+    margin-left: 39.98px;
 }
 
 .footer__info-p {
@@ -271,7 +272,7 @@ $bp-mobile: 390px;
 
 @media (max-width: $bp-mobile) {
     .container {
-        max-width: $bp-mobile;
+        width: 100vw;
         width: 100%;
         // background-color: #f2994A;
     }

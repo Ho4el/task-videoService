@@ -52,16 +52,31 @@
 }
 
 @media (max-width: 390px) {
+  .container {
+    width: 100vw;
+    width: 100%;
+  }
   .channel__item__logo {
-    width: 200px;
+    max-width: 100px;
+    padding: 20px;
+  }
+  .channel__item__logo img {
+    width: auto;
+  }
+  .channels {
+    width: 100vw;
   }
   .channel__item {
-    width: 390px;
+    height: auto;
+    max-width: 100vw;
   }
   .channel__description {
-    font-size: 10px;
+    font-size: 12px;
     text-align: left;
     padding-top: 10px;
+  }
+  .channel__description h3 {
+    font-size: 16px;
   }
 }
 

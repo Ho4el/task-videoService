@@ -55,6 +55,7 @@
 
 .header__search-txt:focus {
   outline: none;
+  width: 150px;
 }
 
 .header__search-btn {
@@ -74,7 +75,7 @@
   font-family: Rubik-Medium;
   border-radius: 4px;
   width: 113px;
-  max-height: 38px;
+  height: 38px;
 }
 
 .header__auth-btn:hover {
@@ -232,6 +233,7 @@
 .footer__logo {
   /* display: flex; */
   margin-right: 39.98px;
+  margin-left: 39.98px;
 }
 
 .footer__info-p {
@@ -258,7 +260,7 @@
 */
 @media (max-width: 390px) {
   .container {
-    max-width: 390px;
+    width: 100vw;
     width: 100%;
   }
   .header {
