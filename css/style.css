@@ -55,7 +55,6 @@
 
 .header__search-txt:focus {
   outline: none;
-  width: 150px;
 }
 
 .header__search-btn {
@@ -164,16 +163,16 @@
 }
 
 .geners-gallery__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 6px;
   height: 208px;
   width: 280px;
   /* background: linear-gradient(127.83deg, #f2c94c 8.44%, #f29a4a 91.36%); */
   box-shadow: inset 0px 0px 16px rgba(0, 0, 0, 0.15);
-  display: flex;
   position: relative;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   opacity: 0.8;
 }
 
@@ -182,7 +181,7 @@
 }
 
 .drama {
-  background: linear-gradient(127.83deg, #f2994A 8.44%, #eb5757 91.36%);
+  background: linear-gradient(127.83deg, #f2994a 8.44%, #eb5757 91.36%);
 }
 
 .fantastik {

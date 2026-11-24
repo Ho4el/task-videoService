@@ -1,3 +1,5 @@
+@use "mixin" as m;
+
 * {
     margin: 0;
     padding: 0;
@@ -169,33 +171,36 @@
 }
 
 .geners-gallery__item{
+    @include m.flex-center();
     border-radius: 6px;
     height: 208px;
     width: 280px;
     /* background: linear-gradient(127.83deg, #f2c94c 8.44%, #f29a4a 91.36%); */
     box-shadow: inset 0px 0px 16px rgba(0,0,0,0.15);
-    display: flex;
     position: relative;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     opacity: 0.8;
 }
 
 .comedy {
-        background: linear-gradient(127.83deg, #f2c94c 8.44%, #f29a4a 91.36%);
+    // background: linear-gradient(127.83deg, #f2c94c 8.44%, #f29a4a 91.36%);
+    @include m.gradient(#f2c94c, #f29a4a);
 }
 
 .drama {
-        background: linear-gradient(127.83deg, #f2994A 8.44%, #eb5757 91.36%);
+    // background: linear-gradient(127.83deg, #f2994A 8.44%, #eb5757 91.36%);
+    @include m.gradient(#f2994a, #eb5757);
+
 
 }
 .fantastik {
-        background: linear-gradient(127.83deg, #56ccf2 8.44%, #2f80ed 91.36%);
+    // background: linear-gradient(127.83deg, #56ccf2 8.44%, #2f80ed 91.36%);
+    @include m.gradient(#56ccf2, #2f80ed);
 
 }
 .horror {
-        background: linear-gradient(127.83deg, #828282 8.44%, #333333 91.36%);
+    // background: linear-gradient(127.83deg, #828282 8.44%, #333333 91.36%);
+    @include m.gradient(#828282, #333333);
 
 }
 

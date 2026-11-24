@@ -1,13 +1,8 @@
-/* 
-	font-family: Rubik-Medium;
-	font-family: Rubik-reg;
-*/
+@use "mixin" as m;
 
 .modal__backgraund {
-	display: flex;
-	justify-content: center;
+	@include m.flex-center();
 	height: 100vh;
-	align-items: center;
 	background-color: olive;
 }
 
